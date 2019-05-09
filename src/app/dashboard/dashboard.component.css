@@ -1,0 +1,12 @@
+.box {
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+}
+
+.body{
+    background-color: antiquewhite;
+}

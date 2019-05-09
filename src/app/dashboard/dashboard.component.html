@@ -1,0 +1,14 @@
+<div class="row" *ngIf="alldata.length>0">
+  <div class="col-md-4" *ngFor="let data of alldata[0]; index as i;">
+    <a>
+        <div class="box">
+            <h4>{{data.otherdata.date | date}}</h4>           
+            <h4>{{data.otherdata.tile}}</h4><br>            
+            <div>
+            <a href=""  style="float:right"  class="btn btn-danger">Delete</a>
+            </div>
+          </div>  
+      </a>
+  </div>
+</div>
+
